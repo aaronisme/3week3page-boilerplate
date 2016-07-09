@@ -1,24 +1,113 @@
+* {
+	box-sizing: border-box;
+	font-family: "Avenir Next","Avenir","Helvetica";
+}
+
+.btn-big{
+	margin: 0px 10px;
+	width: 220px;
+	height: 45px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background: transparent;
+	color:#cccccc;
+}
+
+.btn-login{
+	margin: 0px 10px;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #d6d6d6;
+	background: white;
+	color:#737272;
+}
+
+
 body {
-	.img-container{
-		display: inline-block;
-		width: 14%;
-		img{
-			width: 15%;
+	header {
+		margin: 0px;
+		padding: 1px;
+		.img-container{
+			display: inline-block;
+			width: 14%;
+			img{
+				width: 50%;
+
+			}
+		}
+		nav {
+			width: 70%;
+			display: inline-block;
+			border-left: #d6d6d6 solid 1px;
+			border-right: #d6d6d6 solid 1px;
+
+			ul {
+				padding: 0px;
+				text-align: center;
+				li{
+					display: inline-block;
+					width: 15%;
+					a {
+						color:#737272;
+						text-decoration: none;
+					}
+				}
+			}
 
 		}
-	}
-	nav {
-		width: 70%;
-		display: inline-block;
-		li{
-			display: inline;
+		.button-container{
+			display:inline-block;
+			width: 14%;
+		}
 
+	}
+
+	section {
+		padding: 1px;
+	}
+
+	.first-section{
+		background-size: cover;
+		background-position: center;
+		height: 500px;
+		h1 {
+			margin-top: 200px;
+			text-align: center;
+			color: white;
+		}
+
+		.btn-group{
+			text-align: center;
+		}
+
+		.btn-trasback{
+			background-color: rgba(255,255,255,0.3);
 		}
 	}
 
-	.button-container{
-		display:inline-block;
-		width: 14%;
+	.other-section{
+		height: 300px;
+	}
+
+	.mission-section{
+		background-color: white;
+		text-align: center;
+		h2 {
+			font-size: 30px;
+		}
+		p{
+			font-size: 20px;
+		}
+		.btn-yellow{
+			background-color: #FFCD62;
+			color: #636471;
+		}
+
+	}
+
+	.stu-section{
+		background-color: #91D0B1;
 	}
 
 
