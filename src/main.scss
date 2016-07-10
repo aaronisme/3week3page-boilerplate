@@ -3,6 +3,10 @@
 	font-family: "Avenir Next","Avenir","Helvetica";
 }
 
+$green-color: #91D0B1;
+$yellow-color: #FFCD62;
+$blue-color: #80A8CC;
+
 .btn-big{
 	margin: 0px 10px;
 	width: 220px;
@@ -10,7 +14,7 @@
 	border-radius: 5px;
 	border: 1px solid #ccc;
 	background: transparent;
-	color:#cccccc;
+	color:white;
 }
 
 .btn-login{
@@ -29,10 +33,15 @@ body {
 		margin: 0px;
 		padding: 1px;
 		.img-container{
+			position: relative;
 			display: inline-block;
 			width: 14%;
 			img{
-				width: 50%;
+				position: absolute;
+				right: 0px;
+				top:-28px;
+				width: 100px;
+				height: 48px;
 
 			}
 		}
@@ -65,6 +74,15 @@ body {
 
 	section {
 		padding: 1px;
+		div{
+			color: white;
+		}
+	}
+
+	.btn-section{
+		margin-top: 100px;
+		background-color: rgba(127,127,138,0.3);
+		border-color: rgba(127,127,138,0.3);
 	}
 
 	.first-section{
@@ -87,6 +105,12 @@ body {
 	}
 
 	.other-section{
+		.container{
+			width: 80%;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+
 		height: 300px;
 	}
 
@@ -107,7 +131,89 @@ body {
 	}
 
 	.stu-section{
-		background-color: #91D0B1;
+		background-color: $green-color;
+		img {
+			padding: 20px;
+			float: left;
+		}
+
+		.content-box {
+			padding-left: 400px;
+			padding-right: 250px;
+		}
+
+		.btn-stu{
+			margin-top: 100px;
+			border-color: #7CB69A;
+			background-color: #7CB69A;
+		}
+
+	}
+
+	.us-section{
+		background-color: #FFCD62;
+		img {
+			padding: 20px;
+			float: right;
+		}
+
+		.content-box {
+			padding-right: 400px;
+			padding-left: 0px;
+		}
+	}
+
+	.pepople-section{
+		background-color: $blue-color;
+		img {
+			padding: 20px;
+			float: left;
+		}
+
+		.content-box{
+			padding-left: 400px;
+			padding-right: 250px;
+		}
+	}
+
+	.last-section{
+		height: 450px;
+		text-align: center;
+		.panel-box{
+			width: 90%;
+			margin: 0 auto;
+
+			.green-content{
+				color:$green-color;
+			}
+			.yellow-content {
+				color: $yellow-color;
+			}
+			.blue-content{
+				color: $blue-color;
+			}
+
+			div{
+				display: inline-block;
+				width: 30%;
+				height: 300px;
+				margin: 20px;
+				border: 2px solid #d6d6d6;
+				border-radius: 10px;
+				.number{
+					font-size: 50px;
+				}
+
+			}
+
+		}
+	}
+
+	footer{
+		padding: 1px;
+		background-color: black;
+		text-align: center;
+		color: white;
 	}
 
 
