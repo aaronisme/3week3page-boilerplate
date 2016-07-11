@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  font-family: "Avenir Next","Avenir","Helvetica"; }
+
+.btn-big {
+  margin: 0px 10px;
+  width: 220px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: transparent;
+  color: white; }
+
+.btn-login {
+  margin: 0px 10px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #d6d6d6;
+  background: white;
+  color: #737272; }
+
+body header {
+  margin: 0px;
+  padding: 1px; }
+  body header .img-container {
+    position: relative;
+    display: inline-block;
+    width: 14%; }
+    body header .img-container img {
+      position: absolute;
+      right: 0px;
+      top: -28px;
+      width: 100px;
+      height: 48px; }
+  body header nav {
+    width: 70%;
+    display: inline-block;
+    border-left: #d6d6d6 solid 1px;
+    border-right: #d6d6d6 solid 1px; }
+    body header nav ul {
+      padding: 0px;
+      text-align: center; }
+      body header nav ul li {
+        display: inline-block;
+        width: 15%; }
+        body header nav ul li a {
+          color: #737272;
+          text-decoration: none; }
+  body header .button-container {
+    display: inline-block;
+    width: 14%; }
+
+body section {
+  padding: 1px; }
+  body section div {
+    color: white; }
+
+body .btn-section {
+  margin-top: 100px;
+  background-color: rgba(127, 127, 138, 0.3);
+  border-color: rgba(127, 127, 138, 0.3); }
+
+body .first-section {
+  background-size: cover;
+  background-position: center;
+  height: 500px; }
+  body .first-section h1 {
+    margin-top: 200px;
+    text-align: center;
+    color: white; }
+  body .first-section .btn-group {
+    text-align: center; }
+  body .first-section .btn-trasback {
+    background-color: rgba(255, 255, 255, 0.3); }
+
+body .other-section {
+  height: 300px; }
+  body .other-section .container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden; }
+
+body .mission-section {
+  background-color: white;
+  text-align: center; }
+  body .mission-section h2 {
+    font-size: 30px; }
+  body .mission-section p {
+    font-size: 20px; }
+  body .mission-section .btn-yellow {
+    background-color: #FFCD62;
+    color: #636471; }
+
+body .stu-section {
+  background-color: #91D0B1; }
+  body .stu-section img {
+    padding: 20px;
+    float: left; }
+  body .stu-section .content-box {
+    padding-left: 400px;
+    padding-right: 250px; }
+  body .stu-section .btn-stu {
+    margin-top: 100px;
+    border-color: #7CB69A;
+    background-color: #7CB69A; }
+
+body .us-section {
+  background-color: #FFCD62; }
+  body .us-section img {
+    padding: 20px;
+    float: right; }
+  body .us-section .content-box {
+    padding-right: 400px;
+    padding-left: 0px; }
+
+body .pepople-section {
+  background-color: #80A8CC; }
+  body .pepople-section img {
+    padding: 20px;
+    float: left; }
+  body .pepople-section .content-box {
+    padding-left: 400px;
+    padding-right: 250px; }
+
+body .last-section {
+  height: 450px;
+  text-align: center; }
+  body .last-section .panel-box {
+    width: 90%;
+    margin: 0 auto; }
+    body .last-section .panel-box .green-content {
+      color: #91D0B1; }
+    body .last-section .panel-box .yellow-content {
+      color: #FFCD62; }
+    body .last-section .panel-box .blue-content {
+      color: #80A8CC; }
+    body .last-section .panel-box div {
+      display: inline-block;
+      width: 30%;
+      height: 300px;
+      margin: 20px;
+      border: 2px solid #d6d6d6;
+      border-radius: 10px; }
+      body .last-section .panel-box div .number {
+        font-size: 50px; }
+
+body footer {
+  padding: 1px;
+  background-color: black;
+  text-align: center;
+  color: white; }
